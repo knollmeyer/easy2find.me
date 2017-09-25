@@ -11,11 +11,15 @@ h1 { /* Newsletter Title*/
 }
 h2 { /* Site Directory & article titles*/
   font-size: 40px;
+  padding-left: 18%;
+  padding-right: 18%;
   font-family: Monaco;
   text-align: center
+
+
 }
 
-h3 {  /* DJ Sad Image breaks*/
+h3 {  /* DJ Sad Image breaks in newsletter*/
   text-align: center;
 }
  /* header image and page end email and daps*/
@@ -69,12 +73,14 @@ b:hover {color: rgb(0,150,255)}
 
 
 
+
+
 nav {
   position: sticky;
   top: 3vh;
   height: 450px;
-  background: pink;
-  /*border: 3px solid black;*/
+  background: white;
+  border: 3px solid black;
   width: 15%;
   padding-left: 3px;
   padding-right: 3px;
